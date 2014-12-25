@@ -349,7 +349,7 @@ ul.contact li a img {
 }
 
 .m_row {
-    margin-top: 5%;
+    margin-top: 5%; !important
 }
 .n_row {
     margin-top: 2%;
@@ -493,4 +493,12 @@ small.text {
     color: #fff;
     background: #263238;
     text-decoration: none;
+}
+
+.single-item {
+    padding: 2% !important;
+}
+
+.m-header {
+    margin-bottom: 3% !important;
 }
