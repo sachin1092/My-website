@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-
 html {
     height: 100%;
     max-width: 100%;
@@ -521,3 +519,18 @@ small.text {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.nav-item-text {
+    color: #ffffff;
+}
+
+/*.a-nav-btn:hover i {*/
+    /*font-size: 2.6em !important;*/
+    /*transition: font-size .5s ease-in-out;*/
+    /*transition-duration: .5s;*/
+/*}*/
+/*.a-nav-btn i {*/
+    /*font-size: 2.5em !important;*/
+    /*transition: font-size .5s ease-in-out;*/
+    /*transition-duration: .5s;*/
+/*}*/
