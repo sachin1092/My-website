@@ -69,6 +69,10 @@ a, a span {
     margin-bottom: 2em
 }
 
+mask {
+background:#FFFF45
+} 
+
 /*@-webkit-keyframes arrows {*/
     /*0%, 100%, 20%, 50%, 80% {*/
         /*bottom: 10px*/
