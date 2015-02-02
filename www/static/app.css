@@ -104,12 +104,6 @@ a, a span {
     color: #AAA
 }
 .jumbotron#minibio{
-    /*background: #fff;*/
-    /*color: #3366a4;*/
-    /*margin-bottom: 0;*/
-    /*height: 10%;*/
-    /*max-height: 20%;*/
-    /*min-height: 20%;*/
     background: 0 0;
     text-align: center;
     display: table;
@@ -144,8 +138,6 @@ a, a span {
     color: #fff;
     border-radius: 2px 2px 0 0;
 }
-
-
 
 .banner-img {
     width: 180px;
@@ -228,15 +220,6 @@ ul a span {
     font-weight: 300;
     padding-right: 2px;
 }
-
-/*ul a:hover {*/
-    /*color: #48b983;*/
-    /*text-decoration: none;*/
-/*}*/
-
-/*ul a:hover span {*/
-    /*color: #1b8057;*/
-/*}*/
 
 ul.contact {
     list-style: none;
@@ -523,14 +506,3 @@ small.text {
 .nav-item-text {
     color: #ffffff;
 }
-
-/*.a-nav-btn:hover i {*/
-    /*font-size: 2.6em !important;*/
-    /*transition: font-size .5s ease-in-out;*/
-    /*transition-duration: .5s;*/
-/*}*/
-/*.a-nav-btn i {*/
-    /*font-size: 2.5em !important;*/
-    /*transition: font-size .5s ease-in-out;*/
-    /*transition-duration: .5s;*/
-/*}*/
