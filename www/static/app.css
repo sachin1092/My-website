@@ -137,7 +137,7 @@ mask {
 }
 
 .jumbotron#work {
-    background: #64C2E8;
+    background: #05132c;
     margin-bottom: 0;
     color: #fff;
     border-radius: 2px 2px 0 0;
@@ -561,6 +561,22 @@ small.text {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.subtle-sep-vertical {
+    width: 1px;
+    position: relative;
+    /*width: 100%;*/
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(255, 255, 255, 0.48)), to(transparent));
+    background: -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.75), transparent);
+    background: linear-gradient(left, transparent, rgba(255, 255, 255, 0.75), transparent);
+    /*margin: 15px 0 40px 0;*/
+    /*margin-left: 24%;*/
+    /*margin-right: 24%;*/
+    /*margin-top: 2%;*/
+    /*margin-bottom: 2%;*/
+}
+
 .subtle-sep-black {
     height: 1px;
     position: relative;
@@ -825,3 +841,18 @@ small.text {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
+.border-right, .border-left, .border-both {
+    position: relative;
+}
+.border-left:before, .border-right:after {
+    position: absolute;
+    content:'';
+    height: auto;
+    top: 50px;
+    bottom: 10px;
+    border-right: 1px solid #ffffff;
+    width: 0;
+}
+.border-left:before { left: -11px; }
+.border-right:after { right: -10px; }
