@@ -118,7 +118,7 @@ mask {
 }
 
 .jumbotron#projects {
-    background: rgba(255, 255, 255, 0.16);
+    /*background: rgba(255, 255, 255, 0.16);*/
     color: #ffffff;
     font-size: 1.5em;
     margin-bottom: 0
@@ -137,7 +137,7 @@ mask {
 }
 
 .jumbotron#work {
-    background: #f1f1f1;
+    background: #64C2E8;
     margin-bottom: 0;
     color: #fff;
     border-radius: 2px 2px 0 0;
@@ -193,7 +193,7 @@ h1 {
 
 .work-title {
     letter-spacing: 2px !important;
-    color: #3a3a3a !important;
+    /*color: #3a3a3a !important;*/
 }
 
 @media (max-width: 767px) {
@@ -531,7 +531,7 @@ small.text {
 }
 
 .box {
-    /*width: 70%;*/
+    width: 70%;
     /*height:200px;*/
     background: #444444;
     margin: 40px auto;
@@ -822,6 +822,6 @@ small.text {
     width:250px;
     height:250px;
     border: 2px solid rgb(255, 255, 255);
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
