@@ -60,7 +60,7 @@ a, a span {
 
 .top {
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle;
     display: table-cell;
     float: none;
     padding-left: 1em;
@@ -815,4 +815,13 @@ small.text {
     -ms-transform:skew(8deg) rotate(3deg);
     -o-transform:skew(8deg) rotate(3deg);
     transform:skew(8deg) rotate(3deg);
+}
+
+#circle{
+    border-radius:50% 50% 50% 50%;
+    width:250px;
+    height:250px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
